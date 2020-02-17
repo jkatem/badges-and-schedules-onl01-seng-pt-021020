@@ -14,10 +14,9 @@ end
 
 def assign_rooms(attendees)
   newArr = []
-
-    newArr = attendees.each_with_index do |name, i|
-      puts "Hello, #{name}! You'll be assigned to room #{i+1}!"
-    newArr
+  attendees.each_with_index do |name, i|
+    puts "Hello, #{name}! You'll be assigned to room #{i+1}!"
+    newArr = 
   end
 end
 
@@ -25,5 +24,5 @@ end
 
 def printer(attendees)
    batch_badge_creator(attendees).each { |names| puts names }
-   assign_rooms(attendees).each { |room| puts room }
+   assign_rooms(attendees).each { |room| puts "Hello, my name is #{{name}}" }
 end
